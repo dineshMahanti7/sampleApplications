@@ -1,0 +1,82 @@
+{
+  "input_parameters": [
+    {
+      "name": "string",
+      "label": "string",
+      "customtype": "string",
+      "type": "string",
+      "immutable": false,
+      "hidden": false,
+      "required": false,
+      "secured": false,
+      "isDynamic": false,
+      "permission": "Read-Write",
+      "default": "replaceString"
+    },
+    {
+      "name": "password",
+      "label": "password",
+      "customtype": "password",
+      "type": "password",
+      "immutable": false,
+      "hidden": false,
+      "required": false,
+      "secured": true,
+      "description": "",
+      "isDynamic": false,
+      "permission": "Read-Write",
+      "default": "^(cmVwbGFjZXBhc3N3MHJk)",
+      "editable": true,
+      "dynamicDetails": {}
+    },
+    {
+      "name": "list",
+      "label": "list",
+      "customtype": "list",
+      "type": "list",
+      "immutable": false,
+      "hidden": false,
+      "required": false,
+      "secured": false,
+      "description": "",
+      "isDynamic": false,
+      "permission": "Read-Write",
+      "default": [
+        "10",
+        "20"
+      ]
+    },
+    {
+      "name": "boolean",
+      "label": "boolean",
+      "customtype": "boolean",
+      "type": "boolean",
+      "immutable": false,
+      "hidden": false,
+      "required": false,
+      "secured": false,
+      "description": "",
+      "isDynamic": false,
+      "permission": "Read-Write",
+      "default": "true"
+    },
+    {
+      "name": "counter",
+      "label": "counter",
+      "customtype": "counter",
+      "type": "counter",
+      "immutable": false,
+      "hidden": false,
+      "required": false,
+      "secured": false,
+      "description": "",
+      "isDynamic": false,
+      "permission": "Read-Write",
+      "default": 80,
+      "range": {
+        "min": 1,
+        "max": 100
+      }
+    }
+  ]
+}
